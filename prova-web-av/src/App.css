@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.App {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Abel";
+}
+
+header{
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  height: 50px; 
+}
+
+header nav{
+  display: flex; 
+  justify-self: end;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+footer{
+  background-color: rgb(30, 30, 30);
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  color: white;
+}
